@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link text-light" aria-current="page" href="#Home">Home</a>
             </li>
@@ -37,9 +37,9 @@
             <li class="nav-item">
               <a class="nav-link text-light" href="#PD">Place & Date</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-light" href="#">Scan Place</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -50,16 +50,16 @@
   <!-- home -->
   <div id="Home">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row">
         <div class="col-6">
-          <img src="img/kiri.png" alt="bungakiri" class="bungakiri">
+          <img src="img/kiri.png" alt="bungakiri" class="bungakiri" data-aos="fade-down-right" data-aos-duration="2000">
         </div>
         <div class="col-6">
-          <img src="img/kanan.png" alt="bungakanan" class="bungakanan">
+          <img src="img/kanan.png" alt="bungakanan" class="bungakanan" data-aos="fade-down-left" data-aos-duration="2000">
         </div>
       </div>
       <div class="row justify-content-center">
-        <img class="Logo" src="img/Logo.png" alt="Logo">
+        <img class="Logo" src="img/Logo.png" alt="Logo" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="2000">
       </div>
     </div>
   </div>
@@ -94,9 +94,9 @@
             <br>
             <img src="" alt="">
             <br>
-            <h4>Nur Yasifa</h4>
+            <h4 style="text-align: end;">Nur Yasifa</h4>
             <br>
-            <p>Putri Pertama dari Bpk. Bunyamin dan Ibu Eneng Fatmawati</p>
+            <p style="text-align: end;">Putri Pertama dari Bpk. Bunyamin dan Ibu Eneng Fatmawati</p>
         </div>
       </div>
     </div>
@@ -120,21 +120,20 @@
               <p class="card-text">Masjid Al-Kaffah Legenda Malaka (Kediaman Mempelai Wanita)</p>
               <br>
               <p>09.00 s/d Selesai</p>
-              <a href="#" class="btn">Go To Maps</a>
+              <a href="https://goo.gl/maps/zb7Xyt96YQa2QDSBA" class="btn">Go To Maps</a>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card" style="width: 18rem;">
             <div class="google-maps">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.082874201359!2d104.05067541475383!3d1.1001278991975396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f2bdda95e8601d4!2zMcKwMDYnMDAuNSJOIDEwNMKwMDMnMTAuMyJF!5e0!3m2!1sid!2sid!4v1646920071443!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.08292821429!2d104.05076441475379!3d1.100087499197563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98ed56870bbcd%3A0x4f550fcbe38e0184!2s6PH64323%2B25P!5e0!3m2!1sid!2sid!4v1646926015563!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
             <div class="card-body">
               <h5 class="card-title">Resepsi</h5>
               <p class="card-text">Legenda Malaka Blok A1 No.14 (Kediaman Mempelai Wanita)</p>
               <br>
               <p>13.00 s/d 18.00</p>
-              <a href="#" class="btn">Go To Maps</a>
+              <a href="https://goo.gl/maps/BSZPBCnQLV4XHxCC8" class="btn">Go To Maps</a>
             </div>
           </div>
         </div>
@@ -161,6 +160,9 @@
   <!-- Scan Place -->
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>

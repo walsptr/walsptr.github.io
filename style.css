@@ -1,6 +1,20 @@
+@font-face {
+  font-family: "magic";
+  src: url(font/magical_holiday/Magical\ Holiday.ttf);
+}
 header#navbar {
   background-color: #d18527;
   opacity: 60%;
+}
+
+#navbar a.navbar-brand {
+  font-family: "honey";
+  font-size: 30px;
+}
+
+/* Home */
+#Home div.container {
+  margin-top: 70px;
 }
 
 #Home div.row {
@@ -24,6 +38,10 @@ div.col-6 {
   font-family: "fabella";
   src: url(font/fabella_flower/fabella-flower.ttf);
 }
+#Opening div.container {
+  margin-top: 80px;
+}
+
 #Opening div.row {
   margin-top: 70px;
 }
@@ -33,18 +51,13 @@ div.col-6 {
   font-size: 50px;
   color: #d18527;
   opacity: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 80px;
 }
 
 #Opening p {
   text-align: center;
-}
-
-#Opening div.col.rahmat {
-  text-align: start;
-}
-
-#Opening div.col.sifa {
-  text-align: end;
 }
 
 /* Name */
