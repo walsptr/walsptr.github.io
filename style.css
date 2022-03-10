@@ -1,0 +1,110 @@
+header#navbar {
+  background-color: #d18527;
+  opacity: 60%;
+}
+
+#Home div.row {
+  margin-bottom: -50px;
+}
+
+img.logo {
+  min-width: 150px;
+  max-width: 400px;
+}
+
+div.col-6 {
+  min-width: 150px;
+  max-width: 200px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+/* Opening */
+@font-face {
+  font-family: "fabella";
+  src: url(font/fabella_flower/fabella-flower.ttf);
+}
+#Opening div.row {
+  margin-top: 70px;
+}
+
+#Opening h3 {
+  font-family: "fabella";
+  font-size: 50px;
+  color: #d18527;
+  opacity: 70%;
+}
+
+#Opening p {
+  text-align: center;
+}
+
+#Opening div.col.rahmat {
+  text-align: start;
+}
+
+#Opening div.col.sifa {
+  text-align: end;
+}
+
+/* Name */
+@font-face {
+  font-family: "Love";
+  src: url(font/love_match/LoveMatch.ttf);
+}
+
+#Name h4 {
+  font-family: "Love";
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+/* PD */
+@font-face {
+  font-family: "honey";
+  src: url(font/honey_valentine/Honey\ Valentine\ TTF.ttf);
+}
+
+#PD h3 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "honey";
+  font-size: 60px;
+  color: #d18527;
+  opacity: 55%;
+}
+
+#PD h5 {
+  text-align: center;
+  font-family: "honey";
+  font-size: 30px;
+  color: #d18527;
+  opacity: 55%;
+}
+
+#PD p {
+  text-align: center;
+}
+
+#PD div.card {
+  margin-top: 5px;
+}
+
+#PD div.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+#PD div.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#PD a.btn {
+  text-align: center;
+}
