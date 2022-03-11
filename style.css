@@ -1,7 +1,7 @@
-@font-face {
-  font-family: "magic";
-  src: url(font/magical_holiday/Magical\ Holiday.ttf);
+p {
+  font-family: "Times New Roman", Times, serif;
 }
+
 header#navbar {
   background-color: #d18527;
   opacity: 60%;
@@ -10,6 +10,7 @@ header#navbar {
 #navbar a.navbar-brand {
   font-family: "honey";
   font-size: 30px;
+  margin-left: 20px;
 }
 
 /* Home */
@@ -40,6 +41,7 @@ div.col-6 {
 }
 #Opening div.container {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 #Opening div.row {
@@ -66,16 +68,32 @@ div.col-6 {
   src: url(font/love_match/LoveMatch.ttf);
 }
 
+#Name div.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 #Name h4 {
   font-family: "Love";
   font-size: 40px;
-  margin-top: 30px;
+  margin-top: 90px;
+  color: #d18527;
+  opacity: 70%;
 }
 
 /* PD */
 @font-face {
   font-family: "honey";
   src: url(font/honey_valentine/Honey\ Valentine\ TTF.ttf);
+}
+
+#PD div.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#PD div.col-md-6 {
+  margin-top: 50px;
 }
 
 #PD div.card {
@@ -89,6 +107,7 @@ div.col-6 {
   font-size: 60px;
   color: #d18527;
   opacity: 55%;
+  margin-bottom: 70px;
 }
 
 #PD h5 {
@@ -123,5 +142,7 @@ div.col-6 {
 }
 
 #PD a.btn {
-  text-align: center;
+  background-color: #d18527;
+  opacity: 50%;
+  color: #ffffff;
 }
