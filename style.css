@@ -2,8 +2,10 @@ p {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* 667465  70a56d*/
+
 header#navbar {
-  background-color: #d18527;
+  background-color: #70a56d;
   opacity: 60%;
 }
 
@@ -51,7 +53,7 @@ div.col-6 {
 #Opening h3 {
   font-family: "fabella";
   font-size: 50px;
-  color: #d18527;
+  color: #70a56d;
   opacity: 70%;
   text-align: center;
   margin-bottom: 50px;
@@ -77,7 +79,7 @@ div.col-6 {
   font-family: "Love";
   font-size: 40px;
   margin-top: 90px;
-  color: #d18527;
+  color: #70a56d;
   opacity: 70%;
 }
 
@@ -97,7 +99,7 @@ div.col-6 {
 }
 
 #PD div.card {
-  border-color: #d18527;
+  border-color: #70a56d;
 }
 
 #PD h3 {
@@ -105,7 +107,7 @@ div.col-6 {
   text-align: center;
   font-family: "honey";
   font-size: 60px;
-  color: #d18527;
+  color: #70a56d;
   opacity: 55%;
   margin-bottom: 70px;
 }
@@ -114,7 +116,7 @@ div.col-6 {
   text-align: center;
   font-family: "honey";
   font-size: 30px;
-  color: #d18527;
+  color: #70a56d;
   opacity: 55%;
 }
 
@@ -142,7 +144,7 @@ div.col-6 {
 }
 
 #PD a.btn {
-  background-color: #d18527;
+  background-color: #70a56d;
   opacity: 50%;
   color: #ffffff;
 }
