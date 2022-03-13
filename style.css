@@ -12,12 +12,12 @@ header#navbar {
 #navbar a.navbar-brand {
   font-family: "honey";
   font-size: 30px;
-  margin-left: 20px;
 }
 
 /* Home */
 #Home div.container {
   margin-top: 70px;
+  margin-bottom: 80px;
 }
 
 #Home div.row {
@@ -50,7 +50,7 @@ div.col-6 {
   margin-top: 70px;
 }
 
-#Opening h3 {
+#Opening h2 {
   font-family: "fabella";
   font-size: 50px;
   color: #667465;
@@ -73,6 +73,16 @@ div.col-6 {
 #Name div.container {
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+#Name h3 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "honey";
+  font-size: 60px;
+  color: #70a56d;
+  opacity: 60%;
+  margin-bottom: 70px;
 }
 
 #Name h4 {
