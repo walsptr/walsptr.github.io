@@ -53,7 +53,7 @@ div.col-6 {
 #Opening h3 {
   font-family: "fabella";
   font-size: 50px;
-  color: #70a56d;
+  color: #667465;
   opacity: 70%;
   text-align: center;
   margin-bottom: 50px;
@@ -66,8 +66,8 @@ div.col-6 {
 
 /* Name */
 @font-face {
-  font-family: "Love";
-  src: url(font/love_match/LoveMatch.ttf);
+  font-family: "Breathing";
+  src: url(font/breathing/Breathing.ttf);
 }
 
 #Name div.container {
@@ -76,7 +76,6 @@ div.col-6 {
 }
 
 #Name h4 {
-  font-family: "Love";
   font-size: 40px;
   margin-top: 90px;
   color: #70a56d;
@@ -108,7 +107,7 @@ div.col-6 {
   font-family: "honey";
   font-size: 60px;
   color: #70a56d;
-  opacity: 70%;
+  opacity: 60%;
   margin-bottom: 70px;
 }
 
@@ -145,6 +144,6 @@ div.col-6 {
 
 #PD a.btn {
   background-color: #70a56d;
-  opacity: 50%;
+  opacity: 100%;
   color: #ffffff;
 }
